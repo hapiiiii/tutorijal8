@@ -108,4 +108,6 @@ class Zadatak1Test {
         System.setIn(inputHolder);
         return defaultSystemIn;
     }
+
+
 }

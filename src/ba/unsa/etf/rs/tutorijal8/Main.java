@@ -10,6 +10,7 @@ public class Main {
     private static TransportDAO dao ;
 
     public static void main(String[] args) {
+
 	// write your code here
         dao = TransportDAO.getInstance();
         Scanner tok = new Scanner(System.in);
@@ -38,6 +39,7 @@ public class Main {
 
             }
         }
+
     }
 
     private static void ispisiAutobuse() {
@@ -107,4 +109,6 @@ public class Main {
         LocalDate hireDate = LocalDate.parse(stream.nextLine(), DateTimeFormatter.ofPattern("d.M.yyyy"));
         dao.addDriver(new Driver(name, surname, umcn, birthday, hireDate));
     }
+
+
 }

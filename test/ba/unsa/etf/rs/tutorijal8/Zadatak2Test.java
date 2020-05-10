@@ -125,4 +125,6 @@ class Zadatak2Test {
         System.setIn(inputHolder);
         return defaultSystemIn;
     }
+
+
 }
