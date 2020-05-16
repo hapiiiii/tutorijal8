@@ -2,19 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="421d7fb7-fab3-48c2-b140-ac993b300cb0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mysql_mysql_connector_java_8_0_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_xerial_sqlite_jdbc_3_31_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/baza.db.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/Bus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/Driver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/TransportDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/lib.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resource/fxml/tut8.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/Novi_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Tutorijal_8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tutorijal_8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ba/unsa/etf/rs/tutorijal8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/PripremaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/PripremaTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/Zadatak1Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/Zadatak1Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/Zadatak2Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rs/tutorijal8/Zadatak2Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +45,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="C:/Program Files/Java/javafx-sdk-13.0.2/lib" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -72,26 +64,32 @@
       <recent name="ba.unsa.etf.rs.tutorijal8" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.All in Tutorijal_8">
-    <configuration name="All in Tutorijal_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.Novi_Main">
+    <configuration name="Novi_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.Novi_Main" />
       <module name="Tutorijal_8" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PripremaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Tutorijal_8" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-13.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ba.unsa.etf.rs.tutorijal8.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rs.tutorijal8" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.PripremaTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rs.tutorijal8.Novi_Main" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Program Files\Java\javafx-sdk-13.0.2\lib&quot; --add-modules javafx.controls,javafx.fxml" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in Tutorijal_8" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Tutorijal_8" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -142,13 +140,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.Novi_Main" />
+      <item itemvalue="JUnit.All in Tutorijal_8" />
+      <item itemvalue="JUnit.Zadatak1Test" />
+      <item itemvalue="JUnit.Zadatak2Test" />
+      <item itemvalue="JUnit.Zadatak2Test.dodijeliIIspisiAutobuse" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Novi_Main" />
         <item itemvalue="JUnit.All in Tutorijal_8" />
         <item itemvalue="JUnit.Zadatak2Test.dodijeliIIspisiAutobuse" />
         <item itemvalue="JUnit.Zadatak2Test" />
         <item itemvalue="JUnit.Zadatak1Test" />
-        <item itemvalue="JUnit.PripremaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -197,6 +202,14 @@
     <option name="LAST_COMMIT_MESSAGE" value="Resetovanje baze prije svakog testiranja" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Project_Structure" timestamp="1589656623947">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Project_Structure/0.0.1366.768@0.0.1366.768" timestamp="1589656623947" />
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1589658379618">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="39" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1589658379618" />
     <state x="447" y="187" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1589036446285">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -205,6 +218,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="939" y="11" key="#com.intellij.ide.util.MemberChooser/0.0.1366.768@0.0.1366.768" timestamp="1589034971571" />
+    <state x="412" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1589658282110">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="412" y="168" key="#com.intellij.ide.util.TreeClassChooserDialog/0.0.1366.768@0.0.1366.768" timestamp="1589658282110" />
     <state x="531" y="273" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1588971765349">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -213,33 +230,37 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="479" y="243" width="408" height="288" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1366.768@0.0.1366.768" timestamp="1589139548405" />
-    <state width="1323" height="210" key="GridCell.Tab.0.bottom" timestamp="1589141121896">
+    <state x="389" y="125" key="FileChooserDialogImpl" timestamp="1589656858271">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589141121896" />
-    <state width="1323" height="210" key="GridCell.Tab.0.center" timestamp="1589141121896">
+    <state x="389" y="125" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1589656858271" />
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom" timestamp="1589667125141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589141121896" />
-    <state width="1323" height="210" key="GridCell.Tab.0.left" timestamp="1589141121896">
+    <state width="1323" height="152" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1589667125141" />
+    <state width="1323" height="152" key="GridCell.Tab.0.center" timestamp="1589667125141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589141121896" />
-    <state width="1323" height="210" key="GridCell.Tab.0.right" timestamp="1589141121896">
+    <state width="1323" height="152" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1589667125141" />
+    <state width="1323" height="152" key="GridCell.Tab.0.left" timestamp="1589667125140">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="1323" height="210" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589141121896" />
-    <state x="163" y="0" key="SettingsEditor" timestamp="1589037903957">
+    <state width="1323" height="152" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1589667125140" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right" timestamp="1589667125141">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589037903957" />
+    <state width="1323" height="152" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1589667125141" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1589656863588">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1589656863588" />
     <state width="498" height="446" key="SwitcherDM" timestamp="1589038481490">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.1366.768@0.0.1366.768" timestamp="1589038481490" />
-    <state x="387" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589037096765">
+    <state x="387" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1589656536174">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="387" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1589037096765" />
+    <state x="387" y="277" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1366.768@0.0.1366.768" timestamp="1589656536174" />
   </component>
 </project>

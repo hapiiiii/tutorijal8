@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<GridPane hgap="5" vgap="5" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ba.unsa.etf.rs.tutorijal8.Novi_Main_controller">
+    <rowConstraints>
+        <RowConstraints percentHeight="5" />
+        <RowConstraints percentHeight="25" />
+        <RowConstraints percentHeight="25" />
+        <RowConstraints percentHeight="15" />
+        <RowConstraints percentHeight="25" />
+        <RowConstraints percentHeight="5" />
+    </rowConstraints>
+    <columnConstraints>
+        <ColumnConstraints percentWidth="5" />
+        <ColumnConstraints halignment="CENTER" percentWidth="45" />
+        <ColumnConstraints halignment="CENTER" percentWidth="45" />
+        <ColumnConstraints percentWidth="5" />
+    </columnConstraints>
+
+    <children>
+        <ListView fx:id="listView" prefHeight="367.0" prefWidth="222.0" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.rowSpan="3" />
+        <HBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="1">
+            <Label minWidth="80">Pretraga</Label>
+            <TextField fx:id="searchTextField" />
+        </HBox>
+
+        <HBox alignment="CENTER" GridPane.columnIndex="2" GridPane.rowIndex="2">
+            <Label minWidth="80">Unos</Label>
+            <TextField fx:id="textField" />
+        </HBox>
+
+        <Label fx:id="label" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+        <HBox alignment="CENTER" spacing="10" GridPane.columnIndex="2" GridPane.rowIndex="4">
+            <Button fx:id="addButton">Dodaj</Button>
+            <Button fx:id="updateButton">Ažuriraj</Button>
+            <Button fx:id="deleteButton">Obriši</Button>
+        </HBox>
+
+
+    </children>
+</GridPane>
